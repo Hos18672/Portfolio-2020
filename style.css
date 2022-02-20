@@ -909,6 +909,7 @@ input:checked + label:after {
 
     .skills{
         height: 120vh;
+        margin-left: 50px;
     }
     .skills .skils-container{
         grid-template-rows: repeat(6,1fr);
@@ -918,6 +919,7 @@ input:checked + label:after {
     
     .projects{
         grid-template-rows: repeat(5,1fr); 
+        margin-left: 50px;
     }
     .projects h1{
       grid-row: 1;
