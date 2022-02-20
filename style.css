@@ -907,9 +907,15 @@ input:checked + label:after {
 
 @media screen and (max-width: 650px) {
 
+    .foto-container{
+        margin-left: 15px;
+    }
+    .education{
+        margin-left: 30px;
+    }
     .skills{
         height: 120vh;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     .skills .skils-container{
         grid-template-rows: repeat(6,1fr);
