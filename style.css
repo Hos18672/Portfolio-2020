@@ -889,7 +889,7 @@ input:checked + label:after {
         margin: 0;
     }
      .app-title{
-         margin: 0 0 20px 0;
+         margin: 50px 0 20px 0;
      }
 
 }
