@@ -939,7 +939,7 @@ input:checked + label:after {
     
     .projects{
         grid-template-rows: repeat(5,1fr); 
-        margin-left: 50px;
+        margin-left: 150px;
     }
     .projects h1{
       grid-row: 1;
@@ -1004,6 +1004,10 @@ input:checked + label:after {
       font-weight: 900;
       font-size: 15px;
     }   
+    .projects .projects-container .porject-tag{
+        position: relative;
+        margin-right: -500px;
+    }
 }
 
 
@@ -1022,4 +1026,10 @@ input:checked + label:after {
     .skills .skils-container .bar-holder img{
         width:35px;
     }
+    .projects{
+        position: relative;
+        right: -200px;
+       margin: 0 auto;
+    }
+
 }
