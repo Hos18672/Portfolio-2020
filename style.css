@@ -852,19 +852,26 @@ input:checked + label:after {
 }
 
 @media screen and (max-width: 850px) {
+
+    .contact{
+        margin: 0;
+        height: 100vh;
+    }
     .contact .container{
         display: grid;
         grid-template-columns:  1fr;
         grid-template-rows: 1fr 1fr 1fr 150px;
         z-index: 11;
+        margin: -300px 0 0 0;
     }
 .contact .container .screen .screen-body{
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr  150px;
+    grid-template-rows: 300px 1fr  150px;
 }
 .contact .container .screen .screen-body .screen-body .left{
         grid-row: 1;
         grid-column: 2;
+        margin: 0;
     }
 .contact .container .screen .screen-body .right{
         grid-row: 2;
@@ -878,6 +885,13 @@ input:checked + label:after {
     .footer p{
         margin-bottom: 118px;
     }
+    .app-contact{
+        margin: 0;
+    }
+     .app-title{
+         margin: 0 0 20px 0;
+     }
+
 }
 
 
