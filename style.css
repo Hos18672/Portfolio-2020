@@ -946,7 +946,7 @@ input:checked + label:after {
     }
     .projects h1{
       grid-row: 1;
-      margin-left: 50px;
+      margin-left: 55px;
     }
     .porjects .projects-container{
         grid-row: 2/5;
