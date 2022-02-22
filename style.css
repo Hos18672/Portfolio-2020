@@ -946,12 +946,13 @@ input:checked + label:after {
     }
     .projects h1{
       grid-row: 1;
+      margin-left: 50px;
     }
     .porjects .projects-container{
         grid-row: 2/5;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4,1fr);
-        margin-left: 50p;
+        margin-left: 50px;
     }
 
     .nav-bar-container{ 
