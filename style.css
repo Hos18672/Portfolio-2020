@@ -527,7 +527,7 @@ input:checked + label:after {
     height: 400px;
     width: 320px;
     grid-template-rows: 1f 1fr;
-    border-radius: 20px;
+    border-radius: 15px;
     background: rgba(255, 255, 255, 0.726);
     -webkit-box-shadow: 2px 7px 31px -7px rgba(139, 138, 138, 0.55); 
     box-shadow: 2px 7px 31px -7px rgba(206, 199, 199, 0.411);
@@ -537,19 +537,19 @@ input:checked + label:after {
 }
 .porjects .projects-container .porject-tag .pi-3, .pi-2{
     background: rgb(243, 243, 243);
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 10px;
     height: 200px;
 }
 .porjects .projects-container .porject-tag .project-item  img{
     width: 100%;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .porjects .projects-container .porject-tag .project-item  img{
     width: 300px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .porjects .projects-container .porject-tag .project-item .graph-img{
     height: 180px;
@@ -782,7 +782,7 @@ input:checked + label:after {
     }
     .porjects .projects-container .porject-tag .pi-3, .pi-2{
         background: rgb(243, 243, 243);
-        border-radius: 20px;
+        border-radius: 10px;
         margin: 10px;
         height: 150px;
     }
