@@ -136,7 +136,7 @@ input:checked + label:after {
 }
 
 .nav-bar-container a i{
-    font-size: 40px;
+    font-size: 25px;
     color: var(--black-color);
     transition: 5ms ease;
 }
